@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>VectraWeb — Diseño que Electrifica. Datos que Convierten.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fuentes: Inter para títulos + Space Grotesk para cuerpo (con fallback) -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&family=Space+Grotesk:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome 6 (iconos base) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <canvas id="vector-bg"></canvas>
+
+  <header>
+    <div class="container nav-container">
+      <div class="logo">VECTRAWEB</div>
+      <div class="nav-links">
+        <a href="#">Inicio</a>
+        <a href="#servicios">Soluciones</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#contacto" class="cta-button" style="padding: 0.5rem 1.2rem;">Contacto</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <h1>Diseño que Electrifica.<br>Datos que Convierten.</h1>
+        <p>En VectraWeb no construimos solo páginas o apps; creamos ecosistemas digitales donde el diseño audaz (nuestra
+          V azul) y el análisis de datos trabajan 24/7 para hacer crecer tu marca.</p>
+        <div class="cta-group">
+          <a href="#contacto" class="cta-button">⚡ Acelerar mi Proyecto</a>
+          <a href="#servicios" class="cta-button btn-outline">Explorar soluciones</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Servicios / Soluciones -->
+    <section id="servicios">
+      <div class="container">
+        <h2 style="text-align: center;">Soluciones de alto voltaje</h2>
+        <div class="section-subhead">Tecnología que impulsa resultados medibles, diseño que enamora.</div>
+        <div class="services-grid">
+          <!-- Desarrollo Web & Apps -->
+          <div class="service-card">
+            <div class="icon-wrapper"><i class="fas fa-laptop-code"></i></div>
+            <h3>🌐 Desarrollo Web & Apps</h3>
+            <p>Sistemas robustos con React, Next.js y Vue. Optimización SEO y rendimiento extremo.</p>
+            <div class="tech-stack">
+              <span>Next.js</span><span>React</span><span>TypeScript</span>
+            </div>
+          </div>
+          <!-- Apps Móviles -->
+          <div class="service-card">
+            <div class="icon-wrapper"><i class="fas fa-mobile-alt"></i></div>
+            <h3>📱 Apps Móviles Nativas</h3>
+            <p>Experiencias fluidas en iOS y Android usando Flutter y React Native con la agilidad de la V.</p>
+            <div class="tech-stack">
+              <span>Flutter</span><span>React Native</span><span>Firebase</span>
+            </div>
+          </div>
+          <!-- Backend & Sistemas -->
+          <div class="service-card">
+            <div class="icon-wrapper"><i class="fas fa-server"></i></div>
+            <h3>⚙️ Backend & Sistemas</h3>
+            <p>Arquitecturas escalables y microservicios. Seguridad de grado bancario y alta disponibilidad.</p>
+            <div class="tech-stack">
+              <span>Node.js</span><span>Python</span><span>Go</span>
+            </div>
+          </div>
+          <!-- Bases de Datos -->
+          <div class="service-card">
+            <div class="icon-wrapper"><i class="fas fa-database"></i></div>
+            <h3>📊 Bases de Datos</h3>
+            <p>Diseño y optimización de estructuras de datos masivas. Rendimiento garantizado bajo carga.</p>
+            <div class="tech-stack">
+              <span>PostgreSQL</span><span>MongoDB</span><span>Redis</span>
+            </div>
+          </div>
+          <!-- Análisis de Datos -->
+          <div class="service-card">
+            <div class="icon-wrapper"><i class="fas fa-chart-pie"></i></div>
+            <h3>📈 Análisis de Datos</h3>
+            <p>Convertimos big data en insights accionables con tableros en tiempo real y BI.</p>
+            <div class="tech-stack">
+              <span>Python</span><span>R</span><span>Power BI</span>
+            </div>
+          </div>
+          <!-- Monitoreo & DevSecOps -->
+          <div class="service-card">
+            <div class="icon-wrapper"><i class="fas fa-shield-halved"></i></div>
+            <h3>🛡️ Monitoreo & DevSecOps</h3>
+            <p>Seguimiento 24/7 de tus sistemas. Automatización de despliegues y seguridad proactiva.</p>
+            <div class="tech-stack">
+              <span>Docker</span><span>Kubernetes</span><span>AWS</span>
+            </div>
+          </div>
+          <!-- Automatización de Servicios -->
+          <div class="service-card">
+            <div class="icon-wrapper"><i class="fas fa-robot"></i></div>
+            <h3>🤖 Automatización de Servicios</h3>
+            <p>Optimizamos tus flujos de trabajo con bots y procesos automatizados que eliminan el error humano.</p>
+            <div class="tech-stack">
+              <span>Python</span><span>Zapier</span><span>Selenium</span>
+            </div>
+          </div>
+          <!-- Innovación Continua -->
+          <div class="service-card featured-service">
+            <div class="icon-wrapper"><i class="fas fa-wand-magic-sparkles"></i></div>
+            <h3>✨ Innovación Continua</h3>
+            <p>Estamos a la vanguardia. Integramos lo último en IA y tecnologías emergentes en cada proyecto.</p>
+            <div class="tech-stack">
+              <span>AI / ML</span><span>Web3</span><span>Edge Computing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nuestro Equipo (Humanizar la marca) -->
+    <section id="equipo">
+      <div class="container">
+        <h2 style="text-align: center;">El talento detrás del rayo</h2>
+        <div class="section-subhead">Detrás de cada línea de código hay una mente creativa. Somos estrategas, ingenieros
+          y artistas de datos obsesionados con tu éxito. Conócenos.</div>
+        <div class="team-grid">
+          <!-- Valentina -->
+          <div class="team-card">
+            <div class="avatar"><i class="fas fa-user-astronaut"></i></div>
+            <h3>Valentina Cruz</h3>
+            <p style="color:#00D4FF; font-weight:500;">Lead UX Architect</p>
+            <p style="font-size:0.9rem; margin-bottom: 1.5rem;">"Si no es intuitivo, no está terminado."</p>
+            <a href="#" class="portfolio-link">Ver Portafolio <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <!-- Mateo -->
+          <div class="team-card">
+            <div class="avatar"><i class="fas fa-microchip"></i></div>
+            <h3>Mateo Ríos</h3>
+            <p style="color:#00D4FF; font-weight:500;">Director de Innovación Tech</p>
+            <p style="font-size:0.9rem; margin-bottom: 1.5rem;">"Convertimos React y Node en experiencias adictivas."
+            </p>
+            <a href="#" class="portfolio-link">Ver Portafolio <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <!-- Sofia Kim -->
+          <div class="team-card">
+            <div class="avatar"><i class="fas fa-chart-simple"></i></div>
+            <h3>Sofía Kim</h3>
+            <p style="color:#00D4FF; font-weight:500;">Estratega SEO & Data</p>
+            <p style="font-size:0.9rem; margin-bottom: 1.5rem;">"El tráfico no sirve si no se queda. Hablo con los
+              datos."</p>
+            <a href="#" class="portfolio-link">Ver Portafolio <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Metodología / Proceso (Cómo lo hacemos) -->
+    <section>
+      <div class="container">
+        <h2 style="text-align: center;">Metodología sin fricción</h2>
+        <div class="section-subhead">Análisis → Desarrollo Ágil → Lanzamiento + Data. Todo en ciclos rápidos.</div>
+        <div class="steps">
+          <div class="step-item">
+            <div class="step-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+            <div class="step-visual">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=300"
+                alt="Análisis de datos logo" class="methodology-logo">
+            </div>
+            <h3>Análisis estratégico</h3>
+            <p>Data-driven discovery: entendemos tu negocio, usuarios y KPIs.</p>
+          </div>
+          <div class="step-item">
+            <div class="step-icon"><i class="fas fa-code-branch"></i></div>
+            <h3>Desarrollo & diseño iterativo</h3>
+            <p>Entregas semanales, feedback continuo y ajustes en tiempo real.</p>
+          </div>
+          <div class="step-item">
+            <div class="step-icon"><i class="fas fa-rocket"></i></div>
+            <h3>Lanzamiento + monitoreo</h3>
+            <p>Go live, dashboards y optimización constante post-lanzamiento.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Casos de éxito (Prueba social) -->
+    <section>
+      <div class="container case-studies">
+        <h2>Casos de éxito que iluminan</h2>
+        <div class="metrics">
+          <div class="metric">
+            <h3>+156%</h3>
+            <p>tráfico SEO en 4 meses</p>
+          </div>
+          <div class="metric">
+            <h3>99.9%</h3>
+            <p>uptime en apps críticas</p>
+          </div>
+          <div class="metric">
+            <h3>+40%</h3>
+            <p>conversión con UX redesign</p>
+          </div>
+        </div>
+        <p style="color:#B0B0B8;">Clientes como <strong>FintechX</strong>, <strong>EcoEnergy</strong> y
+          <strong>LogiSmart</strong> confían en VectraWeb.
+        </p>
+
+        <div class="portfolio-section">
+          <h3>Trabajos Realizados</h3>
+          <div class="portfolio-grid">
+            <div class="project-card">
+              <div class="project-image"
+                style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600');">
+              </div>
+              <div class="project-info">
+                <h4>FintechX App</h4>
+                <p>Dashboard financiero en tiempo real.</p>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-image"
+                style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600');">
+              </div>
+              <div class="project-info">
+                <h4>EcoEnergy Portal</h4>
+                <p>Sistema de monitoreo solar inteligente.</p>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-image"
+                style="background-image: url('https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&q=80&w=600');">
+              </div>
+              <div class="project-info">
+                <h4>LogiSmart Trace</h4>
+                <p>Plataforma de logística & tracking.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Final y contacto -->
+    <section id="contacto">
+      <div class="container" style="text-align: center; background: #0F0F12; border-radius: 48px; padding: 3rem 2rem;">
+        <h2>¿Electrificamos tu presencia digital?</h2>
+        <p style="margin-bottom: 2rem; color:#B0B0B8;">Cuéntanos tu proyecto. Nuestro equipo de estrategas te responderá
+          en menos de 24h.</p>
+        <form action="#" method="post"
+          style="max-width: 500px; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem;">
+          <input type="text" placeholder="Nombre completo" required
+            style="padding: 1rem; border-radius: 60px; border: 1px solid #2c2c2c; background:#0A0A0A; color: white;">
+          <input type="email" placeholder="Correo electrónico" required
+            style="padding: 1rem; border-radius: 60px; border: 1px solid #2c2c2c; background:#0A0A0A; color: white;">
+          <textarea rows="3" placeholder="Cuéntanos tu idea..."
+            style="padding: 1rem; border-radius: 28px; border: 1px solid #2c2c2c; background:#0A0A0A; color: white;"></textarea>
+          <button type="submit" class="cta-button" style="width: fit-content; margin: 0 auto;">Enviar mensaje →</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 VectraWeb — Diseño que Electrifica. Datos que Convierten.</p>
+      <p style="margin-top: 0.5rem; font-size: 0.8rem;">⚡ Azul eléctrico · Dark Mode premium · Innovación centrada en el
+        equipo humano</p>
+    </div>
+  </footer>
+
+  <!-- Micro-interacción opcional para simular glow dinámico (íconos) -->
+  <script src="script.js"></script>
+</body>
+
+</html>
